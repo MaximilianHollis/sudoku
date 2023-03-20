@@ -1,0 +1,33 @@
+{
+  "name": "sudoku",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^10.6.0",
+    "luxon": "^3.3.0",
+    "nanoid": "^4.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-use": "^17.4.0",
+    "use-sound": "^4.0.1",
+    "zundo": "^2.0.0-beta.11",
+    "zustand": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/luxon": "^3.2.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "eslint-config-apple": "^0.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vite-plugin-pwa": "^0.14.4"
+  }
+}
